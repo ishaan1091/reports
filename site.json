@@ -1,0 +1,15 @@
+{
+  "title": "Reports",
+  "description": "Public reports and interactive documents.",
+  "lang": "en",
+  "accent": "#245c45",
+  "nav": "Documents",
+  "author": "",
+  "footer": "Public reports and documents.",
+  "dark_accent": "#9ad4af",
+  "collection": "Collection",
+  "document_singular": "document",
+  "document_plural": "documents",
+  "undated": "Undated",
+  "empty": "No documents yet."
+}
