@@ -3,6 +3,10 @@
     "pomerado-deep-dive": {
       "folder": "2026-10-30-pomerado-deep-dive",
       "title": "Inside Pomerado \u2014 from a website task to a reusable tool"
+    },
+    "publish-html-demo": {
+      "folder": "2026-10-31-explore-a-public-sample-dataset",
+      "title": "Explore a public sample dataset"
     }
   },
   "version": 1
