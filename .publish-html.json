@@ -1,4 +1,12 @@
 {
+  "comments": {
+    "category": "Announcements",
+    "category_id": "DIC_kwDOVc-i284DKB3Q",
+    "enabled": true,
+    "provider": "giscus",
+    "repo": "ishaan1091/reports",
+    "repo_id": "R_kgDOVc-i2w"
+  },
   "documents": {
     "pomerado-deep-dive": {
       "folder": "2026-10-30-pomerado-deep-dive",
