@@ -1,82 +1,88 @@
 WEBVTT
 
-00:00.000 --> 00:01.933
-Your agent already did the thinking.
+00:00.180 --> 00:02.093
+You've got a useful explanation.
 
-00:01.933 --> 00:05.153
-Give that work a format people actually want to explore.
+00:02.093 --> 00:04.770
+Now make it something people can explore.
 
-00:05.153 --> 00:07.086
-Meet Publish HTML.
+00:04.770 --> 00:10.890
+Publish HTML turns your agent's work into an interactive page, with a link you can share.
 
-00:08.486 --> 00:10.705
-Start with analysis you already have.
+00:11.820 --> 00:14.909
+Let's use something everyone knows: opening a website.
 
-00:10.705 --> 00:15.884
-For this demo, we used TauLang, a Go interpreter with Hindi English keywords.
+00:14.909 --> 00:16.840
+We've prepared the explanation first.
 
-00:15.884 --> 00:18.473
-The skill handles the presentation and publishing.
+00:16.840 --> 00:22.247
+The skill's job is to choose the visuals, build the page, and publish it.
 
-00:19.873 --> 00:24.616
-Instead of a wall of text, the result is a focused, interactive field guide.
+00:23.177 --> 00:24.166
+Here's the result.
 
-00:24.616 --> 00:28.682
-A clear introduction, a system map, and a trace you can follow.
+00:24.166 --> 00:27.463
+A guide that takes you from a click to pixels.
 
-00:30.082 --> 00:31.513
-Click through the pipeline.
+00:27.463 --> 00:32.408
+It connects the network journey, caching, and the work your browser still has to do.
 
-00:31.513 --> 00:35.806
-See the source become tokens, then a syntax tree, then a value.
+00:33.339 --> 00:36.931
+Click through the journey to see which part does what.
 
-00:35.806 --> 00:39.025
-These outputs were captured from the real Go interpreter.
+00:36.931 --> 00:39.086
+Then switch to a repeat visit.
 
-00:39.025 --> 00:41.887
-This is an explanation, not a browser runtime.
+00:39.086 --> 00:42.318
+A fresh cached response can take a different route.
 
-00:43.287 --> 00:46.293
-Switch from a binding to a function or an array.
+00:42.318 --> 00:44.473
+The diagram changes with the explanation.
 
-00:46.293 --> 00:51.103
-The views stay in sync, so the relationship between code and result becomes easier to see.
+00:45.403 --> 00:48.970
+Fresh, unchanged, and missing content aren't the same case.
 
-00:52.503 --> 00:56.025
-A system map explains the responsibilities at a glance.
+00:48.970 --> 00:53.329
+Put those outcomes side by side, and the difference becomes clear.
 
-00:56.025 --> 00:59.547
-A searchable vocabulary connects unfamiliar keywords to familiar ideas.
+00:53.329 --> 00:57.292
+This is a teaching model, not a measured speed test.
 
-00:59.547 --> 01:01.503
-Every component has a job.
+00:58.221 --> 01:02.243
+The rendering view explains why fast delivery isn't the whole story.
 
-01:01.503 --> 01:03.460
-There is no widget quota.
+01:02.243 --> 01:05.900
+Switch how a script loads and see what it changes.
 
-01:04.860 --> 01:11.024
-The publisher reuses your GitHub Pages repository, uploads the page, and verifies the live files.
+01:05.899 --> 01:08.459
+Sources and limitations stay with the page.
 
-01:11.024 --> 01:16.366
-Revisions keep the same document URL, with previous versions retained in Git history.
+01:09.389 --> 01:14.651
+And here's the actual GitHub repository the agent set up for this site.
 
-01:17.766 --> 01:18.517
-Want feedback?
+01:14.651 --> 01:19.508
+Each document has its own folder, with its HTML and assets together.
 
-01:18.517 --> 01:20.771
-Enable optional page comments with Giscus.
+01:19.508 --> 01:21.127
+Git keeps the revisions.
 
-01:20.771 --> 01:25.653
-Your agent can read the discussion and reply, then publish the next revision.
+01:21.127 --> 01:25.580
+Publish an update, and the document keeps the same public URL.
 
-01:25.653 --> 01:28.658
-Reading the page never requires a GitHub login.
+01:26.511 --> 01:27.617
+Comments are optional.
 
-01:30.058 --> 01:32.289
-Reports, system explanations, dashboards, and more.
+01:27.617 --> 01:29.828
+Enable them when you want feedback.
 
-01:32.289 --> 01:37.493
-Bring your content, ask for Publish HTML, and get a link.
+01:29.828 --> 01:35.726
+Your agent can read the discussion and reply, then use it to improve the next version.
 
-01:37.493 --> 01:41.211
-Clone the skill and try it with your next explanation.
+01:36.656 --> 01:40.217
+Use it for an explanation, a report, or a dashboard.
+
+01:40.217 --> 01:44.134
+Bring the content, ask for publish HTML, and get a link.
+
+01:44.134 --> 01:46.270
+You'll find the skill on GitHub.
