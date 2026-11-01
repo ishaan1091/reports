@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:01,933
+Your agent already did the thinking.
+
+2
+00:00:01,933 --> 00:00:05,153
+Give that work a format people actually want to explore.
+
+3
+00:00:05,153 --> 00:00:07,086
+Meet Publish HTML.
+
+4
+00:00:08,486 --> 00:00:10,705
+Start with analysis you already have.
+
+5
+00:00:10,705 --> 00:00:15,884
+For this demo, we used TauLang, a Go interpreter with Hindi English keywords.
+
+6
+00:00:15,884 --> 00:00:18,473
+The skill handles the presentation and publishing.
+
+7
+00:00:19,873 --> 00:00:24,616
+Instead of a wall of text, the result is a focused, interactive field guide.
+
+8
+00:00:24,616 --> 00:00:28,682
+A clear introduction, a system map, and a trace you can follow.
+
+9
+00:00:30,082 --> 00:00:31,513
+Click through the pipeline.
+
+10
+00:00:31,513 --> 00:00:35,806
+See the source become tokens, then a syntax tree, then a value.
+
+11
+00:00:35,806 --> 00:00:39,025
+These outputs were captured from the real Go interpreter.
+
+12
+00:00:39,025 --> 00:00:41,887
+This is an explanation, not a browser runtime.
+
+13
+00:00:43,287 --> 00:00:46,293
+Switch from a binding to a function or an array.
+
+14
+00:00:46,293 --> 00:00:51,103
+The views stay in sync, so the relationship between code and result becomes easier to see.
+
+15
+00:00:52,503 --> 00:00:56,025
+A system map explains the responsibilities at a glance.
+
+16
+00:00:56,025 --> 00:00:59,547
+A searchable vocabulary connects unfamiliar keywords to familiar ideas.
+
+17
+00:00:59,547 --> 00:01:01,503
+Every component has a job.
+
+18
+00:01:01,503 --> 00:01:03,460
+There is no widget quota.
+
+19
+00:01:04,860 --> 00:01:11,024
+The publisher reuses your GitHub Pages repository, uploads the page, and verifies the live files.
+
+20
+00:01:11,024 --> 00:01:16,366
+Revisions keep the same document URL, with previous versions retained in Git history.
+
+21
+00:01:17,766 --> 00:01:18,517
+Want feedback?
+
+22
+00:01:18,517 --> 00:01:20,771
+Enable optional page comments with Giscus.
+
+23
+00:01:20,771 --> 00:01:25,653
+Your agent can read the discussion and reply, then publish the next revision.
+
+24
+00:01:25,653 --> 00:01:28,658
+Reading the page never requires a GitHub login.
+
+25
+00:01:30,058 --> 00:01:32,289
+Reports, system explanations, dashboards, and more.
+
+26
+00:01:32,289 --> 00:01:37,493
+Bring your content, ask for Publish HTML, and get a link.
+
+27
+00:01:37,493 --> 00:01:41,211
+Clone the skill and try it with your next explanation.
