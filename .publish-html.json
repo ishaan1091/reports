@@ -23,6 +23,10 @@
     "taulang-interactive-guide": {
       "folder": "2026-11-01-taulang-follow-the-code",
       "title": "TauLang \u2014 Follow the code"
+    },
+    "web-loading-guide": {
+      "folder": "2026-11-01-from-click-to-pixels-an-interactive-web-guidebrowser-dns-resolver-edge-c",
+      "title": "From click to pixels \u2014 An interactive web guideBrowser, DNS resolver, edge cache, and origin server; the highlighted route depends on the selected visit and stage."
     }
   },
   "version": 1
