@@ -1,115 +1,71 @@
 1
-00:00:00,180 --> 00:00:02,093
-You've got a useful explanation.
+00:00:00,180 --> 00:00:05,099
+Turn your agent’s analysis into an interactive page you can share.
 
 2
-00:00:02,093 --> 00:00:04,770
-Now make it something people can explore.
+00:00:05,099 --> 00:00:06,888
+That’s what publish-html does.
 
 3
-00:00:04,770 --> 00:00:10,890
-Publish HTML turns your agent's work into an interactive page, with a link you can share.
+00:00:07,818 --> 00:00:14,739
+Give your agent the content, then ask: use publish-html to make this interactive and put it on my site.
 
 4
-00:00:11,820 --> 00:00:14,909
-Let's use something everyone knows: opening a website.
+00:00:15,669 --> 00:00:25,318
+The agent chooses a layout for the material, with system diagrams, flows, charts, or other widgets where they make the explanation easier to understand.
 
 5
-00:00:14,909 --> 00:00:16,840
-We've prepared the explanation first.
+00:00:26,249 --> 00:00:30,883
+Readers can follow a process, compare different views, or explore the data.
 
 6
-00:00:16,840 --> 00:00:22,247
-The skill's job is to choose the visuals, build the page, and publish it.
+00:00:30,883 --> 00:00:33,972
+Each interaction should help them answer a question.
 
 7
-00:00:23,177 --> 00:00:24,166
-Here's the result.
+00:00:34,902 --> 00:00:37,662
+The skill publishes to your GitHub Pages repository.
 
 8
-00:00:24,166 --> 00:00:27,463
-A guide that takes you from a click to pixels.
+00:00:37,662 --> 00:00:42,837
+It can set one up on first use, and remembers it for the next page.
 
 9
-00:00:27,463 --> 00:00:32,408
-It connects the network journey, caching, and the work your browser still has to do.
+00:00:43,767 --> 00:00:46,110
+Each document gets its own folder.
 
 10
-00:00:33,339 --> 00:00:36,931
-Click through the journey to see which part does what.
+00:00:46,110 --> 00:00:50,796
+Updates keep the same public link, while Git preserves the earlier versions.
 
 11
-00:00:36,931 --> 00:00:39,086
-Then switch to a repeat visit.
+00:00:51,727 --> 00:00:52,611
+Want feedback?
 
 12
-00:00:39,086 --> 00:00:42,318
-A fresh cached response can take a different route.
+00:00:52,611 --> 00:00:54,379
+Enable optional page comments.
 
 13
-00:00:42,318 --> 00:00:44,473
-The diagram changes with the explanation.
+00:00:54,379 --> 00:01:01,010
+Readers can leave suggestions, and your agent can read them, reply, and revise the page.
 
 14
-00:00:45,403 --> 00:00:48,970
-Fresh, unchanged, and missing content aren't the same case.
+00:01:01,939 --> 00:01:07,094
+It’s a standalone skill with shared scripts for Claude Code and Codex.
 
 15
-00:00:48,970 --> 00:00:53,329
-Put those outcomes side by side, and the difference becomes clear.
+00:01:07,094 --> 00:01:12,678
+The pages use plain HTML, CSS, and JavaScript, with no site build step.
 
 16
-00:00:53,329 --> 00:00:57,292
-This is a teaching model, not a measured speed test.
+00:01:13,608 --> 00:01:14,773
+Bring your content.
 
 17
-00:00:58,221 --> 00:01:02,243
-The rendering view explains why fast delivery isn't the whole story.
+00:01:14,773 --> 00:01:15,938
+Ask for publish-html.
 
 18
-00:01:02,243 --> 00:01:05,900
-Switch how a script loads and see what it changes.
-
-19
-00:01:05,899 --> 00:01:08,459
-Sources and limitations stay with the page.
-
-20
-00:01:09,389 --> 00:01:14,651
-And here's the actual GitHub repository the agent set up for this site.
-
-21
-00:01:14,651 --> 00:01:19,508
-Each document has its own folder, with its HTML and assets together.
-
-22
-00:01:19,508 --> 00:01:21,127
-Git keeps the revisions.
-
-23
-00:01:21,127 --> 00:01:25,580
-Publish an update, and the document keeps the same public URL.
-
-24
-00:01:26,511 --> 00:01:27,617
-Comments are optional.
-
-25
-00:01:27,617 --> 00:01:29,828
-Enable them when you want feedback.
-
-26
-00:01:29,828 --> 00:01:35,726
-Your agent can read the discussion and reply, then use it to improve the next version.
-
-27
-00:01:36,656 --> 00:01:40,217
-Use it for an explanation, a report, or a dashboard.
-
-28
-00:01:40,217 --> 00:01:44,134
-Bring the content, ask for publish HTML, and get a link.
-
-29
-00:01:44,134 --> 00:01:46,270
-You'll find the skill on GitHub.
+00:01:15,938 --> 00:01:20,211
+Get a page people can explore—and a link you can share.
