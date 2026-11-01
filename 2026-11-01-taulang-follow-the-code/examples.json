@@ -1,0 +1,221 @@
+[
+  {
+    "id": "binding",
+    "name": "A binding",
+    "source": "sun_liyo_tau answer ne_bana_diye 6 * 7;\nanswer;",
+    "tokens": [
+      {
+        "Type": "LET",
+        "Literal": "let"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "answer"
+      },
+      {
+        "Type": "ASSIGNMENT",
+        "Literal": "="
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "6"
+      },
+      {
+        "Type": "MULTIPLICATION",
+        "Literal": "*"
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "7"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "answer"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "EOF",
+        "Literal": ""
+      }
+    ],
+    "ast": "let answer = (6 * 7);\nanswer;",
+    "result": "42"
+  },
+  {
+    "id": "function",
+    "name": "A function",
+    "source": "sun_liyo_tau double ne_bana_diye tau_ka_jugaad(n) {\n  laadle_ye_le n * 2;\n};\ndouble(21);",
+    "tokens": [
+      {
+        "Type": "LET",
+        "Literal": "let"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "double"
+      },
+      {
+        "Type": "ASSIGNMENT",
+        "Literal": "="
+      },
+      {
+        "Type": "FUNCTION",
+        "Literal": "func"
+      },
+      {
+        "Type": "LEFT_PAREN",
+        "Literal": "("
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "n"
+      },
+      {
+        "Type": "RIGHT_PAREN",
+        "Literal": ")"
+      },
+      {
+        "Type": "LEFT_BRACE",
+        "Literal": "{"
+      },
+      {
+        "Type": "RETURN",
+        "Literal": "return"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "n"
+      },
+      {
+        "Type": "MULTIPLICATION",
+        "Literal": "*"
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "2"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "RIGHT_BRACE",
+        "Literal": "}"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "double"
+      },
+      {
+        "Type": "LEFT_PAREN",
+        "Literal": "("
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "21"
+      },
+      {
+        "Type": "RIGHT_PAREN",
+        "Literal": ")"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "EOF",
+        "Literal": ""
+      }
+    ],
+    "ast": "let double = func(n) {\n\treturn (n * 2);\n};\ndouble(21);",
+    "result": "42"
+  },
+  {
+    "id": "array",
+    "name": "An array",
+    "source": "sun_liyo_tau numbers ne_bana_diye [10, 20, 30];\nlen(numbers);",
+    "tokens": [
+      {
+        "Type": "LET",
+        "Literal": "let"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "numbers"
+      },
+      {
+        "Type": "ASSIGNMENT",
+        "Literal": "="
+      },
+      {
+        "Type": "LEFT_BRACKET",
+        "Literal": "["
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "10"
+      },
+      {
+        "Type": "COMMA",
+        "Literal": ","
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "20"
+      },
+      {
+        "Type": "COMMA",
+        "Literal": ","
+      },
+      {
+        "Type": "NUMBER",
+        "Literal": "30"
+      },
+      {
+        "Type": "RIGHT_BRACKET",
+        "Literal": "]"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "len"
+      },
+      {
+        "Type": "LEFT_PAREN",
+        "Literal": "("
+      },
+      {
+        "Type": "IDENTIFIER",
+        "Literal": "numbers"
+      },
+      {
+        "Type": "RIGHT_PAREN",
+        "Literal": ")"
+      },
+      {
+        "Type": "SEMICOLON",
+        "Literal": ";"
+      },
+      {
+        "Type": "EOF",
+        "Literal": ""
+      }
+    ],
+    "ast": "let numbers = [10, 20, 30];\nlen(numbers);",
+    "result": "3"
+  }
+]

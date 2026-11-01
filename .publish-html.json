@@ -15,6 +15,10 @@
     "publish-html-demo": {
       "folder": "2026-10-31-explore-a-public-sample-dataset",
       "title": "A page we can improve together"
+    },
+    "taulang-interactive-guide": {
+      "folder": "2026-11-01-taulang-follow-the-code",
+      "title": "TauLang \u2014 Follow the code"
     }
   },
   "version": 1
